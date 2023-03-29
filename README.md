@@ -57,3 +57,10 @@ Para a realização de operações em todos os endpoints da API, é necessário 
 Também é necessário que você configure a variável de ambiente JWT_SECRET em um arquivo .env ou diretamente nas variáveis de ambiente do seu sistema operacional.
 
 Para configurar o JWT_SECRET execute o script generateToken.ts, depois atribua o valor à variável JWT_SECRET.
+
+## Dos Endpoints
+
+Os seguintes endpoints são implementados na API:
+
+![](./images/Alugueis.png)
+
