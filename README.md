@@ -100,7 +100,7 @@ Os seguintes endpoints são implementados na API:
 
 - Usuários:
 
-![](./Usuários.png)
+![](./images/Usuários.png)
 
 Esta é a API implementada, espero que tenha gostado! :)
 
