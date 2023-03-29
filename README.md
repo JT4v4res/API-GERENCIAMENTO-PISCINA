@@ -62,5 +62,26 @@ Para configurar o JWT_SECRET execute o script generateToken.ts, depois atribua o
 
 Os seguintes endpoints são implementados na API:
 
+- Alugueis:
+
 ![](./images/Alugueis.png)
 
+- Autenticação:
+
+![](./images/Autenticação.png)
+
+- Clientes:
+
+![](./images/Clientes.png)
+
+- Despesas: 
+
+![](./images/Despesas.png)
+
+- Usuários:
+
+![](./Usuários.png)
+
+Esta é a API implementada, espero que tenha gostado! :)
+
+![](https://media.giphy.com/media/Diym3aZO1dHzO/giphy.gif)
