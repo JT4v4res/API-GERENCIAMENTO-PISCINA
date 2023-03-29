@@ -4,9 +4,19 @@ Criei essa API com a utilização do framework NestJS, TypesCript e utilização
 
 A API está totalmente documentada com a utilização do SWAGGER/OpenAPI e todos os endpoints e entidades estão mapeados no mesmo.
 
-Para acessar a documentação siga os seguintes passos:
+## Inicialização
 
-altere no app.module.ts as configurações referentes à conexão com banco de dados para aquelas às quais você usa e crie o banco.
+Primeiramente é necessário instalar as dependências da aplicação, como ja dispomos do package.json só precisamos rodar o seguinte comando:
+
+```
+npm install
+```
+
+E todas as dependências serão instaladas.
+
+Após isso precisamos modificar o app.module.ts
+
+Primeiro altere no app.module.ts as configurações referentes à conexão com banco de dados para aquelas às quais você usa e crie o banco.
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -48,7 +58,17 @@ em seguida, execute a aplicação com o seguinte comando:
 npm run start:dev
 ```
 
-e em seguida acessando em seu navegador o link: http://localhost:3000/api#/
+## Da documentação
+
+Para acessar a documentação siga os seguintes passos:
+
+Com a aplicação já em execução, vá em seu navegador e acesse o link: http://localhost:3000/api#/
+
+Você verá a seguinte tela:
+
+![](./images/documentation.png)
+
+Essa é a página contendo a documentação
 
 ## Autenticação
 
