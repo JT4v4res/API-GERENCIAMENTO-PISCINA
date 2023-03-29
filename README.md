@@ -50,6 +50,8 @@ npm run start:dev
 
 e em seguida acessando em seu navegador o link: http://localhost:3000/api#/
 
+## Autenticação
+
 Para a realização de operações em todos os endpoints da API, é necessário primeiro realizar autenticação via requisição POST passando login e senha, para que seja gerado um token de acesso, com duração máxima de 1h. Esse token deve ser repassado em todos os headers de requisição HTTP, devidamente configurados para que você tenha autorização para realizar alterações no banco ou solicitar informações ao mesmo.
 
 Também é necessário que você configure a variável de ambiente JWT_SECRET em um arquivo .env ou diretamente nas variáveis de ambiente do seu sistema operacional.
