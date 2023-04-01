@@ -36,8 +36,11 @@ export class DespesaService {
             throw new HttpException(`Os campos não podem ser nulos.`, HttpStatus.BAD_REQUEST);
         }
 
+        console.log(despesa);
+
         try{
             await this.despesaRepository.create(despesa);
+            await this.despesaRepository.save(despesa);
         }catch(err){
             throw new HttpException(`Não foi possível inserir a despesa, ${err}`, HttpStatus.INTERNAL_SERVER_ERROR);
         }
