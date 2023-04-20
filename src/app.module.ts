@@ -18,9 +18,9 @@ import { DespesasModule } from './despesas/despesas.module';
       type: 'mysql',
       host: 'localhost',
       port: 3307,
-      username: 'root',
-      password: '5657',
-      database: 'piscina',
+      username: 'user',
+      password: 'password',
+      database: 'database',
       entities: [Alugueis, Clientes, User, Despesa],
       synchronize: true,
     }), AlgueisModule, ClientesModule, UserModule, AuthModule, DespesasModule
